@@ -1,0 +1,30 @@
+
+/*nav styling*/
+nav{
+background-color: bisque;
+display: flex;
+position: sticky;
+z-index: 10px;
+height: 50px;
+padding: 10px;
+}
+nav ul{
+display: flex;
+list-style: none;
+}
+nav li a{
+padding: 15px;
+}
+nav li a:hover{
+background-color: chocolate;
+border-radius: 5px;
+}
+
+/*footer styling*/
+footer{
+background-color: black;
+color: white;
+font-style: italic;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+position: relative;
+}
