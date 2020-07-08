@@ -1,95 +1,132 @@
 
 /*body styling*/
 body{
-padding: 0px;
-margin: 0px;
+  padding: 0px;
+  margin: 0px;
 }
 /*nav styling*/
 nav{
-background-color: bisque;
-display: flex;
-position: sticky;
-z-index: 10px;
-height: 50px;
-justify-content: space-between;
-padding: 15px;
+  background-color: bisque;
+  display: flex;
+  position: sticky;
+  z-index: 10px;
+  height: 50px;
+  justify-content: space-between;
+  padding: 15px;
 }
 nav ul{
-display: flex;
-list-style: none;
+  display: flex;
+  list-style: none;
 
 }
 nav li a{
-color: black;
-padding: 20px;
-text-decoration: none;
+  color: black;
+  padding: 20px;
+  text-decoration: none;
 
 }
 nav li a:hover{
-background-color: chocolate;
-border-radius: 5px;
+  background-color: chocolate;
+  border-radius: 5px;
 }
 
 /*Home section styling*/
 #home{
-background: url(../images/view.jpg)no-repeat center center fixed;
--webkit-background-size: cover;
--moz-background-size: cover;
--o-background-size: cover;
-background-size: cover;
-color: black;
-font-size: 40px;
-text-align: center;
+  background: url(../images/view.jpg)no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: black;
+  font-size: 40px;
+  text-align: center;
 }
 
 .homepage{
-position: relative; 
-height: 100vh;
-width: 100%;
-display: flex;
-justify-content: center;
-align-items: center;
+  position: relative; 
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-/*nutshell section*/
+/*about section styling*/
+#about{
+  background: gainsboro;
+}
 #about h1{
-    text-align: center;
-    font-size: 28px;
+  text-align: center;
+  font-size: 28px;
   }
 #about .container{
-    display: flex;
-    padding-bottom: 20px;
+  display: flex;
+  padding-bottom: 20px;
 }
   
 #about .content{
-    text-align: left;
-    font-size: 22px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 500;
+  text-align: left;
+  font-size: 22px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
 }
-  #about .pic,  #about .content{
-    flex:1;
-  }
-  #about .pic img{
-    display: block;
-    margin-left: 50px;
-    width: 300px;
-    height: 300px;
-    margin-top: 10px;
-    border-radius: 50%;
-  }
-  
-  
+#about .pic,  #about .content{
+  flex:1;
+}
+#about .pic img{
+  display: block;
+  margin-left: 50px;
+  width: 300px;
+  height: 300px;
+  margin-top: 10px;
+  border-radius: 50%;
+}
 
+  /*activities styling*/
+#activities{
+  background: gainsboro;
 
+}
+#activities .container{
+  display: flex;
+  padding-bottom: 20px;
+}
+    
+#activities .description{
+  text-align: left;
+  font-size: 22px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+}
+#activities .description, #activities .surf{
+  flex:1
+}
 
-
-
+#activities .surf img{
+  display: block;
+  margin-left: 50px;
+  width: 300px;
+  height: 300px;
+  margin-top: 10px;
+  border-radius: 50%;
+}
+.btn{
+  background: rgb(110, 109, 219);
+  font-size: 14px;
+  text-decoration: none;
+  border: 2px solid white;
+  padding: 5px;
+  font-weight: bold;
+  font-size: 18px;
+}
+.btn a{
+  text-decoration: none;
+}
 /*footer styling*/
 footer{
-background-color: black;
-color: white;
-font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-position: relative;
-text-align: center;
+  background-color: black;
+  color: white;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  position: relative;
+  text-align: center;
 }
